@@ -1,0 +1,124 @@
+
+@keyframes diapoI1{ 
+    from
+    {transform: translateY(-90px);}
+   
+    
+    to{transform: translateY(-1008px);}
+
+}
+#slider{
+    
+    background: black;
+    height: 20%;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+    margin: 40px auto 0;
+   
+}
+#slider ul {
+
+   margin: 0;
+   padding: 0;
+   overflow:hidden;
+   height:  150%;
+   width:153%;
+   
+ }
+#slider li>img {
+    list-style: none;
+    animation: diapoI1 3s linear infinite;
+    margin-bottom: 2px;
+}
+#slider li{
+   
+    margin-left: 5px;
+    margin-right: 5px;
+   
+ }
+#slider:hover  li img{
+    
+  animation-play-state:  paused;
+}
+.icons-img{
+  
+    list-style: none;
+    display: inline;
+    margin-right: 2%;
+ 
+    
+}
+#image1{
+    margin-left:70%;
+   
+}
+#icons{
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.nav li ul {
+    list-style: none;
+    display:none;
+    
+}
+.nav{
+    margin-left: 12%;
+}
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+     
+    nav ul li:hover ul li {
+    float:none;
+    }
+#logo{
+    margin-left: 5%;
+    float:left;
+
+  
+}
+.nav li a {
+    list-style:none !important;
+    color:rgb(253, 253, 253);
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+     
+    .nav li {
+     
+        
+      margin-right:9%;
+        font-size:20px;
+        line-height:44px;
+        float:left;
+        
+        }
+     
+    .nav ul li {
+        list-style: none;
+        line-height:44px;
+        float:left;
+        background-color:#64abfb;
+        }
+     
+    .nav ul li a {
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+    nav{
+        
+        margin-left:15%;
+        margin-right:15%;
+        margin-top: 5%;
+        background-color: rgb(2, 126, 228);
+
+    }
